@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginpane" prefHeight="441.0" prefWidth="486.0" style="-fx-background-color: #6EFFBF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginForm">
+   <children>
+      <JFXTextField fx:id="txtUserName" layoutX="259.0" layoutY="158.0" prefHeight="46.0" prefWidth="211.0" promptText="Enter User Name" style="-fx-background-color: #FFF4F4;">
+         <font>
+            <Font size="13.0" />
+         </font></JFXTextField>
+      <JFXButton layoutX="313.0" layoutY="270.0" onAction="#btnJoinOnAction" prefHeight="46.0" prefWidth="99.0" style="-fx-background-color: #158467;" text="JOIN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXButton>
+      <ImageView fitHeight="441.0" fitWidth="245.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Image/9233852_4112338.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="275.0" layoutY="25.0" text="WELCOME">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
